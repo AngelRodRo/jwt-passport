@@ -1,4 +1,3 @@
-const createError = require('http-errors');
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -17,6 +16,7 @@ require('./auth/auth');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : false }));
+app.use(routes);
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
