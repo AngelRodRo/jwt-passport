@@ -1,6 +1,6 @@
 <h1 align="center">JWT Passport project test</h1>
 
-Project to explain how to integrate JWT passport with a express app for my youtube channel video: https://www.youtube.com/watch?v=EcCIlxfxc4g
+JWT Passport implementation with Express.js for educational purposes for my youtube channel.
 
 ## Installation
 
